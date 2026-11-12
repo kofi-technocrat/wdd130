@@ -23,10 +23,16 @@ nav a {
 
 h1 {
     color: var(--primary-color);
+    margin: 1rem 0;
 }
 
 main {
-    max-width: 800px;
+    max-width: 700px;
+}
+
+main h1,
+main p {
+    padding-left: 1rem;
 }
 
 main img {
@@ -45,6 +51,7 @@ p {
 aside {
     width: 25rem;
     position: relative;
+    clear: both;
 }
 
 aside img {
@@ -72,4 +79,8 @@ footer {
     border: 1px solid var(--border-color);
     background-color: white;
     color: #000;
+}
+
+.indent {
+    padding-left: 2rem;
 }
