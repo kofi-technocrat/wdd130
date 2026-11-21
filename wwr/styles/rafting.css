@@ -1,8 +1,7 @@
 :root {
-    --primary-color: #f4eeff;
-    --secondary-color: #183561;
+    --primary-color: #faf7ff;
+    --secondary-color: #313950;
     --accent1-color: #fbad05;
-    --accent2-color: rgb(248, 248, 248);
     --heading-font: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
     --body-font: Arial, Helvetica, sans-serif;
 }
@@ -73,7 +72,7 @@ header nav {
     width: 100%;
     top: 20px;
     text-align: center;
-    color: var(--accent2-color);
+    color: var(--primary-color);
     margin-bottom: 1rem;
 
 }
@@ -87,7 +86,7 @@ header nav {
 .hero article {
     position: absolute;
     text-align: justify;
-    background-color: var(--accent2-color);
+    background-color: var(--primary-color);
     color: var(--secondary-color);
     align-items: center;
     padding: 1rem 2rem;
@@ -95,7 +94,7 @@ header nav {
 
 .hero article img {
     width: 150px;
-    border: 5px solid var(--accent2-color);
+    border: 5px solid var(--primary-color);
     box-shadow: 0 0 5px var(--primary-color);
     margin-left: 1rem;
     float: right;
@@ -108,7 +107,7 @@ header nav {
 
 section {
     margin: 1rem auto;
-    background-color: var(--accent2-color);
+    background-color: var(--primary-color);
     padding: 1rem 0;
 }
 
