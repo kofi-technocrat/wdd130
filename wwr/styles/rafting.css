@@ -62,24 +62,34 @@ header nav {
 }
 
 .hero {
+    position: relative;
     display: flex;
-    flex-direction: column;
     align-items: center;
 }
 
 .hero h1 {
+    position: absolute;
+    width: 100%;
+    top: 20px;
     text-align: center;
-    color: var(--accent1-color);
+    color: var(--accent2-color);
     margin-bottom: 1rem;
+
+}
+
+.hero img {
+    display: block;
+    width: 100%;
+    height: auto;
 }
 
 .hero article {
-    display: grid;
-    grid-template-columns: 1fr auto;
+    position: absolute;
     text-align: justify;
+    background-color: var(--accent2-color);
     color: var(--secondary-color);
     align-items: center;
-    margin: 1rem;
+    padding: 1rem 2rem;
 }
 
 .hero article img {
@@ -87,10 +97,9 @@ header nav {
     border: 5px solid var(--accent2-color);
     box-shadow: 0 0 5px var(--primary-color);
     margin-left: 1rem;
-    order: 1;
+    float: right;
 }
 
-.hero,
 .history,
 .adventure {
     padding: 1rem 2rem;
