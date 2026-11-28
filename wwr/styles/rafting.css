@@ -2,7 +2,7 @@
     --primary-color: #f4ecff;
     --secondary-color: #7400c2;
     --accent1-color: #fbad05;
-    --heading-font: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    --header-font: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
     --body-font: Arial, Helvetica, sans-serif;
 }
 
@@ -33,7 +33,7 @@ footer {
 
 h1,
 h2 {
-    font-family: var(--heading-font);
+    font-family: var(--header-font);
     color: var(--accent1-color);
 }
 
