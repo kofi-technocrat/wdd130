@@ -1,6 +1,6 @@
 :root {
-    --primary-color: #faf7ff;
-    --secondary-color: #313950;
+    --primary-color: #f4ecff;
+    --secondary-color: #7400c2;
     --accent1-color: #fbad05;
     --heading-font: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
     --body-font: Arial, Helvetica, sans-serif;
@@ -108,7 +108,6 @@ header nav {
 section,
 .contact-us {
     margin: 1rem auto;
-    background-color: var(--primary-color);
     padding: 1rem 0;
 }
 
@@ -160,6 +159,7 @@ footer {
 
 footer img {
     width: 20px;
+    height: auto;
 }
 
 footer p {
@@ -243,4 +243,12 @@ input[type="Checkbox"] {
 .employees img {
     width: 120px;
     height: auto;
+}
+
+button {
+    background-color: var(--secondary-color);
+    padding: 1rem;
+    color: var(--primary-color);
+    font-size: 1.1rem;
+    border-radius: 1.5rem;
 }
